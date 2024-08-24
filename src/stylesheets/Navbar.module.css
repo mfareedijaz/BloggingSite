@@ -1,0 +1,40 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 2px solid #f9f5f5;
+  border-bottom: 2px solid #f9f5f5;
+  /* border: 2px solid red; */
+}
+
+.siteLogo {
+  font-family: "Hanalei Fill", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 1px;
+  /* border: 2px solid red; */
+}
+
+.menuItemsContainer ul {
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.menuItemsContainer ul li {
+  padding: 0px 6px;
+  list-style: none;
+  font-family: "Cinzel", serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  /* border: 2px solid red; */
+  cursor: pointer;
+}
+
+.loginButton {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 3px;
+}

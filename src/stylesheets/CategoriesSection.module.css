@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.categoriesSection {
+  /* border: 2px solid rgb(0, 255, 106); */
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 25%, 97%, 0.961);
+  padding-bottom: 14px;
+}
+
+.categoriesHeading {
+  font-family: 'Francois One';
+  font-style: normal;
+  margin: 10px 0px;
+}
+
+.categories {
+  /* border: 2px solid rgb(0, 255, 106); */
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+  width: 80%;
+  padding: 8px 0px;
+  margin-bottom: 8px;
+  background-color: white;
+  cursor: pointer;
+}

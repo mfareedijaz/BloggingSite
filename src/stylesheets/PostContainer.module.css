@@ -1,0 +1,9 @@
+.postsContainer{
+  /* border: 2px solid red; */
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}

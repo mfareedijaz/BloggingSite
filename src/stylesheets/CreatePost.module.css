@@ -1,0 +1,58 @@
+.createPostContainer {
+  /* border: 2px solid red; */
+  width: 83%;
+  height: 89.7vh;
+  overflow-y: auto;
+}
+
+.createPostForm {
+  /* border: 2px solid red; */
+  padding: 20px 0px 0px 25px;
+}
+
+.createPostForm > div {
+  /* border: 2px solid red; */
+  margin-bottom: 10px;
+}
+
+.createPostForm > div > div:first-child {
+  /* border: 2px solid red; */
+  margin-bottom: 6px;
+}
+
+.createPostLabel {
+  /* border: 2px solid red; */
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.createPostInput {
+  /* border: 2px solid red; */
+  width: 30%;
+  font-size: 18px;
+  padding: 7px 7px 7px 7px;
+  border-radius: 8px;
+  border: 1px solid #cb9898;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.createPostDescriptionInput {
+  /* border: 2px solid red; */
+  width: 62%;
+  border-radius: 8px;
+  border: 1px solid #cb9898;
+}
+
+.createPostButton {
+  width: 10%;
+  padding: 11px 5px;
+  margin: 3px 0px;
+  border-radius: 8px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: 11px;
+  cursor: pointer;
+}

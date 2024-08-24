@@ -1,0 +1,51 @@
+.registrationContainer {
+  /* border: 2px solid rgb(123, 255, 0); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registrationForm {
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 28%;
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.closeButtonContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: end;
+  cursor: pointer;  
+  color: #cb9898;
+}
+
+.registrationForm h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+.registrationForm > span {
+  font-size: 14px;
+  color: #cb9898;
+}
+
+.registrationForm > p {
+  font-size: 12px;
+  color: #cb9898;
+}
+
+.registrationForm > p > span {
+  color: blueviolet;
+  cursor: pointer;
+}

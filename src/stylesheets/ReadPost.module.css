@@ -1,0 +1,12 @@
+.readPostContainer {
+  /* border: 2px solid red; */
+  width: 85%;
+  margin: 20px auto;
+}
+
+.readPostCard {
+  margin-bottom: 30px;
+  width: 70%;
+  text-align: justify;
+  padding: 0px 10px;
+}
